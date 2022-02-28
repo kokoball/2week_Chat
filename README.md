@@ -12,6 +12,12 @@
 
 <br>
 
+## 📝 스택
+
+<br/>
+
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=black">  <img alt="SCSS" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white"/></a>
+
 
 ## 👀 프로젝트 빌드 및 실행 방법
 
@@ -34,14 +40,6 @@ $ yarn start
 ```
 <br>
 
-## 😎 팀원
-
-| [김지영(팀장)](https://github.com/Jeong-jeong) | [고병표](https://github.com/kokoball) | [유제호](https://github.com/ludacirs) | [홍수연](https://github.com/suyeon-hong)
-|--|--|--|--|
-|<img src="https://user-images.githubusercontent.com/68528752/153546074-abd9a7df-771c-4f14-8a2f-a77246210b1c.jpeg" width="400px"/> |<img src="https://user-images.githubusercontent.com/68528752/153546140-b58f43fe-4730-46ca-bfda-0b048f36d24f.JPG" width="400px"/> | <img src="https://user-images.githubusercontent.com/68528752/153545718-c688e091-53a3-4e30-97fd-a2f00ab97aa8.JPG" width="400px">| <img src="https://user-images.githubusercontent.com/68528752/153545721-ecc413f4-9d1b-45e0-9909-423c27128b1c.jpeg" width="400px">
-|||||
-
-
 <br>
 
 ## 🔥 프로젝트 과정 소개
@@ -58,22 +56,32 @@ $ yarn start
 <br>
 
 
-## 📝 기능 목록 명세
-#### ✔ 김지영
-- 프로젝트 기초 세팅
-- 공용 SCSS 설정
-- 디자인 통일화
-- 배포
-- `Login 페이지`, `Profile 컴포넌트` 구현
-#### ✔ 고병표
-- `Botton 컴포넌트`, `Bottons 컴포넌트` 구현
-- `Chats 페이지`, `MessageBox 컴포넌트` 구현
-#### ✔ 유제호
-- `ChatInput (채팅 인풋)컴포넌트 구현`
-- 메세지 전송, 답글, 삭제 기능 구현
-- redux 전역 상태관리 담당
-#### ✔ 홍수연
-- `Modal` `replyBox` 컴포넌트 구현
+### ✨ 구현 사항 목록 
+-   `Typescript`와 `json-server` 사용
+-    base, domain, hooks, models, pages, styles, redux, utils 으로 프로젝트 구조를 나눠 재사용에 용이하게 개발
+
+-   [x] Redux를 이용한 상태관리
+
+    -   [x] 기존의 메시지 내역 불러오기, 사용자의 메시지 데이터 관리
+
+-   [x] 메시지 입력창
+
+    -   [x] 입력창에 내용 입력시 전송 버튼 활성화 (미입력시 비활성화)
+    -   [x] Shift Enter로 멀티라인 입력 
+    -   [x] Enter 키로 전송 가능
+
+-   [x] 메시지
+
+    -   [x] 내가 전송한 메시지의 경우 이름 옆에 * 문자가 출력
+    -   [x] 보낸 날짜의 경우 yyyy-mm-dd hh:MM:ss 포멧으로 출력
+    -   [x] 답장을 클릭하면 "사용자 이름\n" + "메시지 내용\n" + "(회신)\n" 문자가 입력창에 자동으로 삽입
+    -   [x] 삭제 버튼을 클릭하면 "*** 메시지를 삭제하시겠습니까?" 라는 메시지가 출력되며 응답시 삭제
+
+-   [x] 대화 목록
+
+    -   [x] 미리 생성된 데이터 불러와 구성
+    -   [x] 과거부터 최신 순으로 정렬
+
 
 <br>
 
