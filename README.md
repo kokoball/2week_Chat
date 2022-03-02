@@ -1,5 +1,5 @@
 
-# 목표는 취업이조 2팀
+# 채팅 페이지
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00d459cf-a8e2-475e-9bc0-7488475737a9/deploy-status)](https://app.netlify.com/sites/2weekchat/deploys)
 
 <br>
